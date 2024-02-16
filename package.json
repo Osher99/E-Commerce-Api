@@ -1,0 +1,43 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.1",
+    "@strapi/plugin-cloud": "4.20.0",
+    "@strapi/plugin-i18n": "4.20.0",
+    "@strapi/plugin-users-permissions": "4.20.0",
+    "@strapi/provider-email-sendgrid": "^4.20.1",
+    "@strapi/strapi": "4.20.0",
+    "better-sqlite3": "8.6.0",
+    "form-data": "^4.0.0",
+    "mailgun": "^0.5.0",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^10.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "sendgrid": "^5.2.3",
+    "stripe": "^14.16.0",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "7d757201-0844-4891-bafd-ca9a377cba92"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
