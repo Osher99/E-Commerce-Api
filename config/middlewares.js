@@ -8,13 +8,5 @@ module.exports = [
   'strapi::body',
   'strapi::session',
   'strapi::favicon',
-  'strapi::public',
-  {
-    settings: {
-      cors: {
-        enabled: true,
-        origin: ['https://zero-games.netlify.app'],
-      },
-    },
-  },
+  'strapi::public'
 ];
