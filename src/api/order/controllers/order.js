@@ -48,6 +48,9 @@ module.exports = createCoreController('api::order.order', ({
       ` : ''}
       <hr />
       <p style="font-weight: bold;">מחיר כולל: ₪${totalPrice}</p>
+      <hr />
+      <p>נציג מטעמנו ייצור איתך קשר לגבי ההזמנה שלך</p>
+      <p> תודה שקנית אצלנו! https://zero-games.netlify.app/</p>
     </div>
 `;
 
