@@ -62,6 +62,14 @@ module.exports = createCoreController('api::order.order', ({
         html: htmlContent
       });
 
+      await strapi.plugins['email'].services.email.send({
+        to: 'zzrerogames@gmail.com',
+        from: 'zzrerogames@gmail.com',
+        subject: 'התקבלה הזמנה חדשה',
+        text: 'התקבלה הזמנה חדשה',
+        html: htmlContent
+      });
+
       // Return success response
       return {
         message: `הזמנה התקבלה בהצלחה! מספר הזמנה: #${orderId}`,
